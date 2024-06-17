@@ -6,6 +6,8 @@ import simonSays from "../../Assets/Projects/SimonSaysChallenge.png";
 import drumKit from "../../Assets/Projects/DrumKitChallenge.png";
 import keeperApp from "../../Assets/Projects/KepperApp-React.png";
 import glitter from "../../Assets/Projects/glitter.png";
+import bluecaribu from "../../Assets/Projects/bluecaribu.png";
+import soustitreur from "../../Assets/Projects/soustitreur.png";
 import proyectoBlogCafe from "../../Assets/Projects/ProyectoBlogCafe.png";
 import alfaco from "../../Assets/Projects/Alfaco-App.png";
 
@@ -15,12 +17,32 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Some <strong className="purple">projects </strong> I've made
+          Some <strong className="purple">projects </strong> I've worked on
         </h1>
         <p style={{ color: "white" }}>
-          Here we have some projects made for me
+          Here we have some projects I've been involved in and others made for me
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={soustitreur}
+              isBlog={false}
+              title="Soustitreur"
+              description="Developed new features, fixed bugs with expertise on JavaScript (Vue.js, React.js, Node.js, and more) and PHP (MVC, OOP, etc)"
+              ghLink="#"
+              demoLink="https://soustitreur.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bluecaribu}
+              isBlog={false}
+              title="Bluecaribu"
+              description="I created a chat app for clients from scratch (JS, Socket.io, Node.js, React.js, and more), fixed bugs, and created new features in the main app (PHP, Codeigniter)."
+              ghLink="#"
+              demoLink="https://www.bluecaribu.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={glitter}
@@ -58,7 +80,7 @@ function Projects() {
               imgPath={simonSays}
               isBlog={false}
               title="Simon Says Game"
-              description="Interesting game where the user has to remember the sequence of colors, it gets hard depending on the level."
+              description="Interesting game where the user has to remember the sequence of colors."
               ghLink="https://github.com/AngelCamargo404/Simon-Says-Game"
               demoLink="https://simon-says-acamargo.netlify.app/"
             />
