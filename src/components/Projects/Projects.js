@@ -9,7 +9,7 @@ import glitter from "../../Assets/Projects/glitter.png";
 import bluecaribu from "../../Assets/Projects/bluecaribu.png";
 import soustitreur from "../../Assets/Projects/soustitreur.png";
 import proyectoBlogCafe from "../../Assets/Projects/ProyectoBlogCafe.png";
-import alfaco from "../../Assets/Projects/Alfaco-App.png";
+import alfaco from "../../Assets/Projects/Alfa-co.png";
 
 function Projects() {
   return (
@@ -28,7 +28,7 @@ function Projects() {
               imgPath={soustitreur}
               isBlog={false}
               title="Soustitreur"
-              description="Developed new features, fixed bugs with expertise on JavaScript (Vue.js, React.js, Node.js, and more) and PHP (MVC, OOP, etc)"
+              description="Full Stack development, Developed new features, fixed bugs using JavaScript (Vue.js, React.js, Node.js, and more) and PHP (MVC, OOP, etc)"
               ghLink="#"
               demoLink="https://soustitreur.com/"
             />
@@ -45,6 +45,15 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={alfaco}
+              isBlog={false}
+              title="Alfaco App"
+              description="App in production, administrative project developed in JavaScript (Vanilla, Jquery), PHP (MVC) and SQL (MySQL Workbench) for a Peruvian company called Alfa Co SAC."
+              demoLink="https://alfaco.com.pe/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={glitter}
               isBlog={false}
               title="Glitter"
@@ -53,17 +62,6 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={alfaco}
-              isBlog={false}
-              title="Alfaco App"
-              description="App in production, administrative project made for a Peruvian company called Alfa Co SAC."
-              demoLink="https://alfaco.com.pe/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={keeperApp}
@@ -74,7 +72,6 @@ function Projects() {
               demoLink="https://keeper-app-acamargo.netlify.app/"              
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={simonSays}
@@ -85,7 +82,6 @@ function Projects() {
               demoLink="https://simon-says-acamargo.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={proyectoBlogCafe}
@@ -96,7 +92,6 @@ function Projects() {
               demoLink="https://blog-de-cafe-solo-front.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={drumKit}
