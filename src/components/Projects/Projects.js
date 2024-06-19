@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Alfaco App"
               description="App in production, administrative project made for a Peruvian company called Alfa Co SAC."
-              demoLink="https://mesadepartes.herokuapp.com/"
+              demoLink="https://alfaco.com.pe/"
             />
           </Col>
 
