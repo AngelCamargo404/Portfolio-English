@@ -47,7 +47,7 @@ function Projects() {
             <ProjectCard
               imgPath={alfaco}
               isBlog={false}
-              title="Alfaco App"
+              title="Alfa Co"
               description="App in production, administrative project developed in JavaScript (Vanilla, Jquery), PHP (MVC) and SQL (MySQL Workbench) for a Peruvian company called Alfa Co SAC."
               demoLink="https://alfaco.com.pe/"
             />
