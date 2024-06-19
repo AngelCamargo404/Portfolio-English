@@ -8,6 +8,7 @@ import keeperApp from "../../Assets/Projects/KepperApp-React.png";
 import glitter from "../../Assets/Projects/glitter.png";
 import bluecaribu from "../../Assets/Projects/bluecaribu.png";
 import soustitreur from "../../Assets/Projects/soustitreur.png";
+import pluscrew from "../../Assets/Projects/pluscrew.png";
 import proyectoBlogCafe from "../../Assets/Projects/ProyectoBlogCafe.png";
 import alfaco from "../../Assets/Projects/Alfa-co.png";
 
@@ -28,9 +29,19 @@ function Projects() {
               imgPath={soustitreur}
               isBlog={false}
               title="Soustitreur"
-              description="Full Stack development, Developed new features, fixed bugs using JavaScript (Vue.js, React.js, Node.js, and more) and PHP (MVC, OOP, etc)"
+              description="Full Stack development, developing new features, fixing bugs using JavaScript (Vue.js, React.js, Node.js, and more), PHP (MVC, OOP, etc) and SQL (MySQL Workbench)"
               ghLink="#"
               demoLink="https://soustitreur.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pluscrew}
+              isBlog={false}
+              title="Pluscrew"
+              description="Full Stack development, maintain existing features, developing new features, fixing bugs using JavaScript (Vue.js, React.js), PHP (MVC, OOP) and SQL (MySQL Workbench)"
+              ghLink="#"
+              demoLink="https://pluscrew.com/"
             />
           </Col>
           <Col md={4} className="project-card">
