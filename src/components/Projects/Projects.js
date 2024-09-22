@@ -8,6 +8,7 @@ import keeperApp from "../../Assets/Projects/KepperApp-React.png";
 import glitter from "../../Assets/Projects/glitter.png";
 import bluecaribu from "../../Assets/Projects/bluecaribu.png";
 import soustitreur from "../../Assets/Projects/soustitreur.png";
+import hornstromp from "../../Assets/Projects/hornstromp.png";
 import pluscrew from "../../Assets/Projects/pluscrew.png";
 import giantfiles from "../../Assets/Projects/giantfiles-website.png";
 import proyectoBlogCafe from "../../Assets/Projects/ProyectoBlogCafe.png";
@@ -25,6 +26,16 @@ function Projects() {
           Here we have some projects I've been involved in and others made for me
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hornstromp}
+              isBlog={false}
+              title="Hornstromp"
+              description="Full Stack development, developing complex features, updating old functionalities and fixing bugs using MERN Stack (MongoDB, Express.js, React.js, Node.js)"
+              ghLink="#"
+              demoLink="https://hornstromp.site/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={soustitreur}
