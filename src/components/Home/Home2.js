@@ -18,24 +18,24 @@ function Home2() {
               LET ME TALK A LITTLE BIT <span className="purple">ABOUT ME</span>
             </h1>
             <p className="home-about-body">
-            I'm a programming lover, constanly looking for new tools and technologies to learn more and more everything that's important for a FullStack Web Developer.
+            As a full-stack enthusiast, I'm committed to mastering both front-end and back-end development, always looking to explore new tools and frameworks.
               <br />
               <br />Languages I'm Confortable with:
               <i>
-                <b className="purple"> JavaScript, PHP, SQL. </b>
+                <b className="purple"> JavaScript, PHP, SQL/NoSQL. </b>
               </i>
               <br />
               <br />
               My field of Interest is creating new &nbsp;
               <i>
-                <b className="purple">Web Applications, learning new technologies </b> and also in areas related to {" "}
+                <b className="purple">Web Applications, new technologies </b> and also in areas related to {" "}
                 <b className="purple">
-                  languages and soccer.
+                  mobile and desktop.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing web apps with <b className="purple">Node.js, React.js</b>
+              Whenever possible, I also apply my passion for developing web apps with <b className="purple">Node.js, React.js, Vue.js,</b>
               <i>
                 <b className="purple">
                   {" "}
@@ -44,7 +44,7 @@ function Home2() {
               </i>
               &nbsp; 
               <i>
-                <b className="purple"> MySQL, PHP and Laravel</b>
+                <b className="purple"> MySQL, PHP, Codeigniter and Laravel</b>
               </i>
             </p>
           </Col>
