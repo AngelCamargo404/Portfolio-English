@@ -29,13 +29,6 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Define default metadata for the entire application
-  const defaultMetadata = {
-    title: "Camargo | Portfolio",
-    description: "Self Developed personal website built with React.js",
-    image: "https://raw.githubusercontent.com/AngelCamargo404/Portfolio-English/refs/heads/main/Images/readme-img1.png",
-  };
-
   return (
     <Router>
       <Helmet>
