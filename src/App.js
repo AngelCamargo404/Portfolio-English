@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from 'react-helmet';
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -28,8 +29,18 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  // Define default metadata for the entire application
+  const defaultMetadata = {
+    title: "Camargo | Portfolio",
+    description: "Self Developed personal website built with React.js",
+    image: "https://raw.githubusercontent.com/AngelCamargo404/Portfolio-English/refs/heads/main/Images/readme-img1.png",
+  };
+
   return (
     <Router>
+      <Helmet>
+        <meta name="description" content="test on react-helmet" />
+      </Helmet>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
