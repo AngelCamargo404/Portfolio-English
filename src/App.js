@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from 'react-helmet';
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -31,9 +30,6 @@ function App() {
 
   return (
     <Router>
-      <Helmet>
-        <meta name="description" content="test on react-helmet" />
-      </Helmet>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
