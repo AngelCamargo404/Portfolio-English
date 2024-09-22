@@ -9,6 +9,7 @@ import glitter from "../../Assets/Projects/glitter.png";
 import bluecaribu from "../../Assets/Projects/bluecaribu.png";
 import soustitreur from "../../Assets/Projects/soustitreur.png";
 import pluscrew from "../../Assets/Projects/pluscrew.png";
+import giantfiles from "../../Assets/Projects/giantfiles-website.png";
 import proyectoBlogCafe from "../../Assets/Projects/ProyectoBlogCafe.png";
 import alfaco from "../../Assets/Projects/Alfa-co.png";
 
@@ -46,6 +47,16 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={giantfiles}
+              isBlog={false}
+              title="Giantfiles"
+              description="Full Stack development, maintain existing features, developing new features, fixing bugs using JavaScript (React.js, Next.js Nest.js), SQL (MySQL Workbench) and Prisma"
+              ghLink="#"
+              demoLink="https://giantfiles.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bluecaribu}
               isBlog={false}
               title="Bluecaribu"
@@ -61,16 +72,6 @@ function Projects() {
               title="Alfa Co"
               description="App in production, administrative project developed in JavaScript (Vanilla, Jquery), PHP (MVC) and SQL (MySQL Workbench) for a Peruvian company called Alfa Co SAC."
               demoLink="https://alfaco.com.pe/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={glitter}
-              isBlog={false}
-              title="Glitter"
-              description="Ecommerce project, shopping cart for personal purposes, made with react.js and node.js."
-              ghLink="https://github.com/AngelCamargo404/Glitter"
-              demoLink="#"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -111,6 +112,16 @@ function Projects() {
               description="To learn how to play some instruments in web"
               ghLink="https://github.com/AngelCamargo404/Drum-Kit-GAME"
               demoLink="https://drum-kit-acamargo.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={glitter}
+              isBlog={false}
+              title="Glitter"
+              description="Ecommerce project, shopping cart for personal purposes, made with react.js and node.js."
+              ghLink="https://github.com/AngelCamargo404/Glitter"
+              demoLink="#"
             />
           </Col>
         </Row>

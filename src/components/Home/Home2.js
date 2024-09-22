@@ -18,7 +18,7 @@ function Home2() {
               LET ME TALK A LITTLE BIT <span className="purple">ABOUT ME</span>
             </h1>
             <p className="home-about-body">
-            I'm a programming lover, constanly looking for new tools and technologies to learn more and more everything that's important for a FullStack Web Developer #INEVERSTOP.
+            I'm a programming lover, constanly looking for new tools and technologies to learn more and more everything that's important for a FullStack Web Developer.
               <br />
               <br />Languages I'm Confortable with:
               <i>

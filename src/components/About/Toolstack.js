@@ -5,17 +5,20 @@ import {
   SiWindows,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
+  SiGooglecloud,
 } from "react-icons/si";
+import {
+  FaAws 
+} from "react-icons/fa"
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
+        <SiGooglecloud />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -24,7 +27,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaChrome />
+        <SiWindows />
       </Col>
     </Row>
   );

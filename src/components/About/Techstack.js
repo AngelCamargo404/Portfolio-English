@@ -6,11 +6,16 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
+  DiCodeigniter,
+  DiMysql,
 } from "react-icons/di";
 import { FaPhp, 
   FaLaravel, 
   FaBootstrap,
   FaDatabase,
+  FaVuejs,
+  FaGithub,
+  FaGitlab,
   FaCss3 } from "react-icons/fa";
 
 function Techstack() {
@@ -29,10 +34,19 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <FaVuejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCodeigniter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaDatabase />
@@ -45,6 +59,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGitlab />
       </Col>
     </Row>
   );
