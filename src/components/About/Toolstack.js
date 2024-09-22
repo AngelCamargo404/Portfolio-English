@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaChrome } from "react-icons/fa";
 import {
   SiWindows,
   SiVisualstudiocode,
